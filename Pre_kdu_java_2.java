@@ -36,8 +36,8 @@ public class Pre_kdu_java_2
             System.out.println(str4);
 
         System.out.println("\nFrequency of the words:");
-        for (Map.Entry<String, Integer> entry : map.entrySet()) 
-            System.out.println("Word = " + entry.getKey() + ", Frequency = " + entry.getValue());
+        for (Map.Entry<String, Integer> data : map.entrySet()) 
+            System.out.println("Word = " + data.getKey() + ", Frequency = " + data.getValue());
 
         sc.close();
     }
