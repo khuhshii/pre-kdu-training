@@ -20,5 +20,6 @@ class Pre_kdu_java_1
         else
             System.out.println("\nTwo strings are not equal\n");
 
+        sc.close();
     }
 }
